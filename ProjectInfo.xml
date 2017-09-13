@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MKL03Z32xxx4</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M0+</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>2048</SRAMsize>
+    <FLASHsize>32k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\inc\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\sim\MKL03Z4\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\src\clock\MKL03Z4\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\inc\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\osa\inc\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\drivers\inc\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\CMSIS\Include\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\MKL03Z4\include\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\utilities\src\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\utilities\inc\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\MKL03Z4\startup\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\SDK\platform\devices\MKL03Z4\startup\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Sources\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\MKL03Z4\startup\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\drivers\src\gpio\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\drivers\src\rtc\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\gpio\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\lpuart\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\mcglite\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\osc\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\port\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\rtc\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\sim\MKL03Z4\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\osa\src\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\src\clock\MKL03Z4\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\src\clock\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\src\interrupt\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\utilities\src\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Sources\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Static_Code\System\</Path>
+      <Path>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\MKL03Z4\startup\gcc\</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\clockMan1.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\gpio1.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\hardware_init.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\osa1.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\pin_init.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\MKL03Z4\startup\system_MKL03Z4.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\startup.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\drivers\src\gpio\fsl_gpio_common.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\drivers\src\gpio\fsl_gpio_driver.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\drivers\src\rtc\fsl_rtc_common.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\gpio\fsl_gpio_hal.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\lpuart\fsl_lpuart_hal.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\mcglite\fsl_mcglite_hal.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\mcglite\fsl_mcglite_hal_modes.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\osc\fsl_osc_hal.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\port\fsl_port_hal.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\rtc\fsl_rtc_hal.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\sim\MKL03Z4\fsl_sim_hal_MKL03Z4.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\osa\src\fsl_os_abstraction_bm.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\src\clock\MKL03Z4\fsl_clock_MKL03Z4.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\src\clock\fsl_clock_manager.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\src\clock\fsl_clock_manager_common.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\src\interrupt\fsl_interrupt_manager.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\utilities\src\fsl_debug_console.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\utilities\src\fsl_misc_utilities.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\utilities\src\print_scan.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Sources\Events.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Sources\main.c</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Static_Code\System\PE_low_level_init.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\PE_low_level_init.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\SDK\platform\devices\MKL03Z4\startup\system_MKL03Z4.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\board.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\clockMan1.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\gpio1.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\osa1.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Generated_Code\pin_init.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\CMSIS\Include\arm_common_tables.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\CMSIS\Include\arm_const_structs.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\CMSIS\Include\arm_math.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\CMSIS\Include\core_cm0plus.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\CMSIS\Include\core_cmFunc.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\CMSIS\Include\core_cmInstr.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\CMSIS\Include\core_cmSimd.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\MKL03Z4\include\MKL03Z4.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\MKL03Z4\include\MKL03Z4_extension.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\MKL03Z4\include\MKL03Z4_features.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\MKL03Z4\include\fsl_bitaccess.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\fsl_device_registers.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\startup.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\drivers\inc\fsl_gpio_driver.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\inc\fsl_gpio_hal.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\inc\fsl_lpuart_hal.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\inc\fsl_mcglite_hal.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\inc\fsl_mcglite_hal_modes.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\inc\fsl_osc_hal.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\inc\fsl_port_hal.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\inc\fsl_rtc_hal.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\inc\fsl_sim_hal.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\hal\src\sim\MKL03Z4\fsl_sim_hal_MKL03Z4.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\osa\inc\fsl_os_abstraction.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\osa\inc\fsl_os_abstraction_bm.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\inc\fsl_clock_manager.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\inc\fsl_interrupt_manager.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\system\src\clock\MKL03Z4\fsl_clock_MKL03Z4.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\utilities\inc\fsl_debug_console.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\utilities\inc\fsl_misc_utilities.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\utilities\src\print_scan.h</PathName>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\Sources\Events.h</PathName>
+    </GeneratedHs>
+    <GeneratedASMs>
+      <PathName>C:\Users\Cibele\workspace.kds\Blinky3_KL03Z\SDK\platform\devices\MKL03Z4\startup\gcc\startup_MKL03Z4.S</PathName>
+    </GeneratedASMs>
+  </FILES>
+  <OPTIONS>
+    <BuildOptions>
+      <CCoptList>
+        <Option>-D CPU_MKL03Z32VFK4</Option>
+        <Option>-D FSL_OSA_BM_TIMER_CONFIG=2</Option>  
+      </CCoptList>
+    </BuildOptions>
+  </OPTIONS>
+</export>
